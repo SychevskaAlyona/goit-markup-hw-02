@@ -1,0 +1,44 @@
+:root {
+  /* Шрифты */
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+
+  /* Цвета текста */
+  --accent-color: #2196F3
+  
+
+  /* Цвета фонов */
+
+  /* Другое */
+}
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+/* Сброс оформления стилей */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.dark-logo {
+  color: #000000;
+}
+.light-logo {
+    color: #ffffff;
+}
+
