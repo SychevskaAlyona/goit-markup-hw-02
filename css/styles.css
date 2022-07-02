@@ -4,18 +4,25 @@
   --second-font: 'Raleway', sans-serif;
 
   /* Цвета текста */
-  --accent-color: #2196F3
+  --main-txt-cl: #757575;
+  --accent-cl: #2196F3;
+  --title-cl:#212121;
   
 
   /* Цвета фонов */
-
+  --main-bcg-cl: #ffffff;
+  --hero-bcg-cl: #2F303A;
+  
   /* Другое */
+
+
 }
 body {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--main-txt-cl);
+  background-color: var(--main-bcg-cl);
 }
 
 /* Сброс оформления стилей */
@@ -33,7 +40,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--accent-cl);
 }
 .dark-logo {
   color: #000000;
@@ -42,3 +49,29 @@ body {
     color: #ffffff;
 }
 
+/* Header */
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-cl)
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-cl) ;
+}
+.current {
+  color: var(--accent-cl);
+}
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: var(--main-txt-cl);
+}
+
+/* контакты в навигации - ховер и фокус!! */
