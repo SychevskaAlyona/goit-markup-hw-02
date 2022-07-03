@@ -75,7 +75,9 @@ body {
 .footer {
   background-color: #2f303a;
 }
-
+.address {
+  font-style: normal;
+}
 .main-address {
   font-style: normal;
   color: #ffffff;
@@ -100,6 +102,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -153,6 +156,7 @@ body {
 /* ----------------------Portfolio styles---------------------- */
 /* Filters btn */
 .filter-btn {
+  font-family: inherit;
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -175,7 +179,6 @@ body {
   color: var(--title-cl);
 }
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-txt-cl);
